@@ -1,0 +1,49 @@
+<h1>BASICS OF LIST</h1>
+<h3>List:--> These are used to store the group of data in a single variable or used to store multiple items in a single variable with different data types</h3>
+<body>
+  1.upper():it is used to upper the given string or charectors.
+           EXAMPLE:word=telugu 
+           word=word.upper() ==>output is : TELUGU
+  2.lower():it is used to lower the given string  or charectors.
+           EXAMPLE : word=TELUGU
+          word=word.lower() ==>output is :telugu
+  3.count() : It is used to count the repeated charectors in a given string or word.
+          EXAMPLE :name= TELUGU 
+          print(name.count(U)) ==>output is : 2 ((here:-U repeated 2 times in a given name of the word))
+  <h2>1.why Index start from zero</h2>
+  4.After initialization of the string to variable that is stored on the memory.then the distance of the 
+  word from the initialized variable in the memory block distance is starts from zero so index starts from the zero.so this scenario is called "offset distance."
+  <h2>2.Difference between Array's and Lists</h2>
+  5.Arrays are Homogineous Data Structures.
+    HOMOGINEOUS:=>which is stores the same data type values (or) These are stored only one data type values (or) The stored data should be one type of data.
+                EXAMPLES :==> A=[1,2,3,4] ----> it stores integer values only.
+  6.Lists are stored Hetrogenious.
+     HETROGINIOUS:==> Which is stores the different data type values (or) we can store any type of data like int,float,str etc in a single variable or in list.
+                EXAMPLES :==> A=[1,2,3,"four",2.34,"six"]
+  7.List functions: A.append() and B.pop()
+               To add and remove the values from the list we can use this functions.append() is used for add the values into list..pop() is used for remove the values from the list.
+  EXAMPLE :==> let taken L=[1,2,3,4]
+               L.append(6) ==>output : L=[1,2,3,4,6] >>>here 6 is added to list.
+  POP(): This function is used followed by the index position.if we given 2 .then remove the 2nd index position value.let's go through the above example.
+               L.pop(1) :==>output : L=[1,3,4,6] >>> here 2 is removed from the list because of 1st index position of that charector.
+  8.Types of Arrays :--> static and dynamic arrays.and differences in lists.
+          Static Arrays :-->in this type of arrays we have to mentioned the length or how many values going to store in a array.and that much of values is stored and fixed legth.
+                            which means we have to mentioned the values of the array before we stored.these are perform speed because of fixed lenght and static storage.
+          Dynamic Arrays :-->In this type of arrays no need to declare the length or size array and type of the data.this is work in run time.dynamic arrays perform slow compare to
+                             static arrays because of double their length in internally..let's go through with one example for better understanding.
+                             EXAMPLE :==> if we have taken L=[1] so the length of the array is (1) that we can see. but internally array doubled lenght(2) and python allowcates the another memory location.
+                             L=[1,2] then accupied space of 4 .L=[1,2,3] then accupied the space 6.it is going on like this in run time.that's why dynamic languaes are slow compare to static.
+  NOTE:==> IN LIST INTERNALLY HAVE  1 SPACE BY DEFAULT.
+
+  
+  
+
+
+
+
+
+
+
+
+  
+</body>
